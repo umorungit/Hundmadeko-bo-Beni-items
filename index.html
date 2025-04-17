@@ -1,0 +1,469 @@
+<!doctype html>
+
+<html lang="ja">
+
+<head>
+
+<meta charset="utf-8">
+
+
+
+
+<title>髪飾り一覧</title>
+
+<link href="css/lightbox.css" rel="stylesheet" type="text/css">
+
+<link href="all.css" rel="stylesheet" type="text/css">
+<link href="kamikazari2.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="https://github.com/umorungit/Hundmadeko-bo-Beni/blob/main/icon2pg.jpg?raw=true">
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/lightbox.min.js"></script>
+
+
+<script>
+
+// script.js
+document.addEventListener('DOMContentLoaded', () => {
+  const hamburger = document.querySelector('.hamburger');
+  const nav = document.querySelector('.nav');
+
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    nav.classList.toggle('active');
+
+    // アクセシビリティ対応
+    const isOpen = hamburger.classList.contains('active');
+    hamburger.setAttribute('aria-expanded', isOpen);
+    nav.setAttribute('aria-hidden', !isOpen);
+  });
+
+  // メニューの外側をクリックした時の処理
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.nav') && !e.target.closest('.hamburger') && nav.classList.contains('active')) {
+      hamburger.classList.remove('active');
+      nav.classList.remove('active');
+      hamburger.setAttribute('aria-expanded', false);
+      nav.setAttribute('aria-hidden', true);
+    }
+  });
+});
+</script>
+
+
+</head>
+
+
+
+<body>
+
+<p class="beni">
+ <a href="工房top5.html"><img alt="ロゴの画像" src="img/logo7.png"></a>
+</p>
+
+
+<div class="header">
+  <button class="hamburger" aria-label="メニュー" aria-controls="nav-menu" aria-expanded="false">
+    <span class="hamburger__line"></span>
+    <span class="hamburger__line"></span>
+    <span class="hamburger__line"></span>
+  </button>
+
+  <nav id="nav-menu" class="nav" aria-hidden="true">
+
+
+    <ul class="nav__list">
+      <li class="nav__item"><a href="https://umorungit.github.io/Hundmadeko-bo-Beni/" class="nav__link">TOP</a></li>
+      <li class="nav__item"><a href="https://umorungit.github.io/Hundmadeko-bo-Beni-omoi/" class="nav__link">工房Beniの想い</a></li>
+      <li class="nav__item"><a href="https://umorungit.github.io/Hundmadeko-bo-Beni-scene/" class="nav__link">こんなシーンに</a></li>
+      <li class="nav__item"><a href="#" class="nav__link">Myリボンを作る</a></li>
+      <li class="nav__item"><a href="#" class="nav__link">髪飾り一覧</a></li>
+      <li class="nav__item"><a href="#" class="nav__link">生地の色・模様一覧</a></li>
+      <li class="nav__item"><a href="#" class="nav__link">商品のご購入</a></li>
+      <li class="nav__item"><a href="#" class="nav__link">工房情報</a></li>
+      <li class="nav__item"><a href="#" class="nav__link">よくある質問</a></li>
+    </ul>
+  </nav>
+</div><!--header-->
+
+
+
+
+
+
+<h1>
+ <spn class="scene1">Items</spn><br>
+ <spn class="scene2">～髪飾り一覧～
+</spn></h1>
+
+
+<div class="all">
+
+<div class="box4">
+<div class="box3">
+<p class="text2">ご希望の商品コードをLINE or Instagramのメッセージにてお伝えください。在庫を確認いたします。別角度の写真が見たい場合もお気軽にお問い合わせください。
+</p>
+
+<div class="box5">
+<p class="gazo1">
+ <a href="#" target="_blank"><img alt="LINEの画像" src="img/line2-copy.png"></a>
+</p>
+
+<p class="gazo1">
+ <a href="https://www.instagram.com/workshop_beni/" target="_blank"><img alt="Instagramの画像" src="img/inst2-copy.png"></a>
+</p>
+</div><!--box5-->
+</div><!--box3-->
+
+
+<div class="box3">
+<p class="photo">
+ <img alt="の画像" src="img/original-copy.jpg">
+</p>
+
+<p class="text1">
+【商品コード】
+</p>
+</div><!--box3-->
+</div><!--box4-->
+
+
+
+
+
+<h2>完成品一覧</h2>
+
+<p class="text3">
+販売中のリボン一覧です。ご希望のおリボンの商品コードをお伝えください。在庫の確認をさせていただきます！<br>
+
+外部サイトでの出品もしておりますので、そちらで先に売れてしまった場合、再度制作にお時間をいただきます。予めご了承ください…！
+</p>
+
+
+
+
+<div class="box2">
+<div class="box1">
+<p class="photo">
+  <a href="img/ribon/赤＿チェック2.jpg" data-lightbox="group" title="【Red-03-001】   白黒チェック×白レース×赤">
+    <img src="img//ribon/赤＿チェック2.jpg" alt="リボン（小）">
+
+  </a>
+</p>
+
+<p class="text1">
+【Red-03-001】<br>
+5500円
+</p>
+</div><!--box1-->
+
+
+
+
+
+
+<div class="box1">
+<p class="photo">
+  <a href="img//ribon/紫＿薄紫2.jpg" data-lightbox="group" title="【Purple-03-001】白レース×紫×濃い紫">
+    <img src="img//ribon/紫＿薄紫2.jpg" alt="リボン（小）">
+  </a>
+</p>
+
+<p class="text1">
+【Purple-03-001】<br>
+5000円
+</p>
+</div><!--box1-->
+
+
+<div class="box1">
+<p class="photo">
+  <a href="img//ribon/赤白.JPG" data-lightbox="group" title="【Red-03-002】白レース×赤×白">
+    <img src="img//ribon/赤白.JPG" alt="リボン（小）">
+  </a>
+</p>
+
+<p class="text1">
+【Red-03-002】<br>
+5000円
+</p>
+</div><!--box1-->
+
+
+
+
+
+
+
+
+
+
+
+<div class="box1">
+<p class="photo">
+  <a href="img/IMG_3097.png" data-lightbox="group" title="【Cream-03-001】クリーム色レース×ライトベージュのチェック×レモンイエロー">
+    <img src="img/IMG_3097.png" alt="リボン（小）">
+  </a>
+</p>
+
+<p class="text1">
+【Cream-03-001】<br>
+5500円
+</p>
+</div><!--box1-->
+
+
+
+
+
+
+<div class="box1">
+<p class="photo">
+  <a href="img/ribon/IMG_3117表.png" data-lightbox="group" title="【Yellow-03-001】レモンイエロー×ライトベージュのレース×黄色のチェック">
+    <img src="img/ribon/IMG_3117表.png" alt="リボン（小）">
+  </a>
+</p>
+
+<p class="text1">
+【Yellow-03-001】<br>
+5500円
+</p>
+</div><!--box1-->
+
+
+<div class="box1">
+<p class="photo">
+  <a href="img/ribon/IMG_3119.png" data-lightbox="group" title="【Pink-03-001】ホワイト×ピンクのチェック×白のレース">
+    <img src="img/ribon/IMG_3119.png" alt="リボン（小）">
+  </a>
+</p>
+
+<p class="text1">
+【Pink-03-001】<br>
+5500円
+</p>
+</div><!--box1-->
+
+
+
+
+
+
+
+
+<div class="box1">
+<p class="photo">
+  <a href="img/ribon/IMG_3127.png" data-lightbox="group" title="【Purple-03-002】ホワイト×パステル紫のチェック×ラベンダー色">
+    <img src="img/ribon/IMG_3127.png" alt="リボン（小）">
+  </a>
+</p>
+
+<p class="text1">
+【Purple-03-002】<br>
+5000円
+</p>
+</div><!--box1-->
+
+
+
+
+
+
+<div class="box1">
+<p class="photo">
+  <a href="img//ribon/IMG_3135.png" data-lightbox="group" title="【Red-03-002】赤×白黒チェック×赤">
+    <img src="img//ribon/IMG_3135.png" alt="リボン（小）">
+  </a>
+</p>
+
+<p class="text1">
+【Red-03-002】<br>
+5000円
+</p>
+</div><!--box1-->
+
+
+
+
+<div class="box1">
+<p class="photo">
+  <a href="img//ribon/IMG_3157.png" data-lightbox="group" title="【Black-03-001】白黒チェック×ホワイト×ブラック">
+    <img src="img//ribon/IMG_3157.png" alt="リボン（小）">
+  </a>
+</p>
+
+<p class="text1">
+【Black-03-001】<br>
+5000円
+</p>
+</div><!--box1-->
+
+
+
+
+
+
+<div class="box1">
+<p class="photo">
+  <a href="img//ribon/IMG_3145.png" data-lightbox="group" title="【Blue-03-001】ブラック×白黒チェック×ブルー">
+    <img src="img//ribon/IMG_3145.png" alt="リボン（小）">
+  </a>
+</p>
+
+<p class="text1">
+【Blue-03-001】<br>
+5000円
+</p>
+</div><!--box1-->
+
+
+<div class="box1">
+<p class="photo">
+  <a href="img//ribon/IMG_3175.png" data-lightbox="group" title="【White-03-001】青白チェック×ホワイト×白レース">
+    <img src="img//ribon/IMG_3175.png" alt="リボン（小）">
+  </a>
+</p>
+
+<p class="text1">
+【White-03-001】<br>
+5500円
+</p>
+</div><!--box1-->
+
+
+<div class="box1">
+<p class="photo">
+  <a href="img//ribon/紫＿薄紫2.jpg" data-lightbox="group" title="【Purple-03-001】白レース×紫×濃い紫">
+    <img src="img//ribon/紫＿薄紫2.jpg" alt="リボン（小）">
+  </a>
+</p>
+
+<p class="text1">
+【Purple-03-001】<br>
+5000円
+</p>
+</div><!--box1-->
+
+
+
+
+</div><!--box2-->
+
+
+
+
+
+
+
+
+<h2>過去の作品例</h2>
+
+<p class="text3">
+現在販売はしておりませんが、Myリボンを作る際の参考にしていただければ幸いです。また、過去の作品と同じリボンが欲しいという方は、その旨を商品コードとともにお伝えいただければ制作いたしますのでお気軽にご連絡ください！
+</p>
+
+
+<div class="box2">
+<div class="box1">
+<p class="photo">
+  <a href="img/original-copy.jpg" data-lightbox="group" title="商品コード">
+    <img src="img/original-copy.jpg" alt="リボン（小）">
+  </a>
+</p>
+
+<p class="text1">
+商品コード
+</p>
+</div><!--box1-->
+
+
+
+
+
+
+<div class="box1">
+<p class="photo">
+  <a href="img/original-copy.jpg" data-lightbox="group" title="商品コード2">
+    <img src="img/original-copy.jpg" alt="リボン（小）">
+  </a>
+</p>
+
+<p class="text1">
+商品コード
+</p>
+</div><!--box1-->
+
+
+<div class="box1">
+<p class="photo">
+  <a href="img/original-copy.jpg" data-lightbox="group" title="商品コード">
+    <img src="img/original-copy.jpg" alt="リボン（小）">
+  </a>
+</p>
+
+<p class="text1">
+商品コード
+</p>
+</div><!--box1-->
+
+</div><!--all-->
+
+
+
+<footer>
+
+
+
+<div class="underbox1">
+<ul class="underul1">
+ <li class="underli1"><a href="工房top5.html">TOP</a></ll>
+ <li class="underli1"><a href="想い1.html">工房Beniの想い</a></ll>
+ <li class="underli1"><a href="こんなシーンに6.html">こんなシーンに</a></ll>
+ <li class="underli1"><a href="オリジナル髪飾りを作る1.html">Myリボンを作る</a></ll>
+</ul>
+
+<ul class="underul1">
+ <li class="underli1"><a href="髪飾り一覧2.html">髪飾り一覧</a></ll>
+ <li class="underli1"><a href="布のカラー・柄一覧.html">生地の色・模様一覧</a></ll>
+ <li class="underli1"><a href="商品購入1.html">商品のご購入</a></ll>
+ <li class="underli1"><a href="工房情報1.html">工房情報</a></ll>
+ <li class="underli1"><a href="工房情報1.html">よくある質問</a></ll>
+</ul>
+
+
+<ul class="underul1">
+ <li class="underli1"><a href="">LINE</a></ll>
+ <li class="underli1"><a href="https://www.instagram.com/workshop_beni/" target="_blank"">Instagram</a></ll>
+ <li class="underli1"><a href="">メルカリ</a></ll>
+ <li class="underli1"><a href="https://minne.com/@beni-shop" target="_blank">minne</a></ll>
+</ul>
+</div><!--underbox1-->
+
+
+
+<!--
+<ul class="underul2">
+ <li class="underli2"><a href=""><img alt="ラインの画像" src="img/line.png"></a></ll>
+ <li class="underli2"><a href="https://www.instagram.com/workshop_beni/" target="_blank""><img alt="インスタの画像" src="img/Instagram-copy.png"></a></ll>
+ <li class="underli2"><a href=""><img alt="メルカリの画像" src="img/mercari1-copy.png"></a></ll>
+ <li class="underli2"><a href="https://minne.com/@beni-shop" target="_blank"><img alt="ミンネの画像" src="img/minne1-copy.png"></a></ll>
+</ul>
+</div><!--underbox1-->
+
+
+
+
+<p class="under">
+ Copyright &copy; 2025 handmade.kobo.Beni All rights reserved.
+</p>
+
+</footer>
+
+
+
+</body>
+
+</html>
