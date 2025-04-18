@@ -151,7 +151,7 @@ h2{
 
 
 .box1{
-	width:100%;
+	width:43%;
 	background-color:#fcf1f0;
 	border:solid 1px #ee827c;
 	border-radius:20px 20px;
@@ -164,8 +164,8 @@ h2{
 	flex-direction:row;
 	flex-wrap:wrap;
 	justify-content:space between;
-	margin:20px;
-	width:100%;
+	margin:auto;
+	width:95%;
 }
 
 
